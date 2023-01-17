@@ -1,0 +1,56 @@
+{
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "332adc28-0a48-497a-ae66-f453ad335eab",
+            "actions": [
+                {
+                    "name": "horizontal",
+                    "type": "Button",
+                    "id": "69db4ea0-18d4-4749-a453-bfb16a7515c7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "51fbbeb1-370b-45ae-8f37-c6c544575ef7",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "horizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f88af057-a088-455c-b20f-b4f149453812",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e5c087b8-9de9-454b-9829-8b46d6f9a423",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "horizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
